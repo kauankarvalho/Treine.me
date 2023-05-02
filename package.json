@@ -1,0 +1,15 @@
+{
+  "name": "treine.me",
+  "version": "",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./src/style/main.css -o ./dist/style.css --watch"
+  },
+  "keywords": [],
+  "author": "Kauan Carvalho",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
