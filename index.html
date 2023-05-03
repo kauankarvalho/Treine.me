@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="text-[62.5%]">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -18,40 +18,59 @@
     <title>Treine.me</title>
   </head>
 
-  <body>
-    <header>
-      <img src="./src/assets/logo.svg" alt="Logomarca da Treine.me" />
+  <body class="flex flex-col justify-center items-center h-screen">
+    <header class="mb-[5.8rem] w-[100%] max-w-[100rem] flex justify-between">
+      <a href="#"><img src="./src/assets/logo.svg" alt="Logomarca da Treine.me" /></a>
 
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Treinar</a></li>
+        <ul class="flex gap-[4.8rem] font-mulish text-[1.8rem]/[2.2rem] text-[#1F1534] font-normal">
+          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+            <a href="#">Home</a>
+          </li>
+          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+            <a href="#">Sobre</a>
+          </li>
+          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+            <a href="#">Treinar</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <h1>Treinos exclusivos para você!</h1>
-      <p>
-        Nós criamos treinos exclusivos e únicos para você. Invista no seu corpo e tenha muito mais performance e
-        qualidade de vida.
-      </p>
+    <main class="flex gap-[10rem]">
+      <section class="w-[48.3rem] flex flex-col gap-[4rem]">
+        <h1 class="font-mulish text-[4.9rem]/[5.6rem] font-normal">
+          Treinos <strong class="text-[#89C5CC]">exclusivos</strong> para você!
+        </h1>
 
-      <button>
-        <img src="./src/assets/whatsapp.svg" alt="Ícone do WhatsApp." />
-        Comece já
-      </button>
+        <p class="font-open_sans text-[1.4rem]/[2.8rem] font-normal text-[#7D7987]">
+          Nós criamos treinos <strong>exclusivos e únicos para você</strong>.
+          <br />
+          Invista no seu corpo e <strong>tenha muito mais performance</strong> e
+          <br />
+          qualidade de vida.
+        </p>
+
+        <button
+          class="bg-[#69B99D] px-[3.2rem] py-[1.4rem] flex gap-[1rem] items-center w-max font-dm_sans text-[1.6rem]/[2rem] text-[#F9F9F9] rounded-[0.4rem] font-medium hover:opacity-80 transition-opacity"
+        >
+          <img src="./src/assets/whatsapp.svg" alt="Ícone do WhatsApp." />
+          Comece já
+        </button>
+      </section>
 
       <aside>
         <img src="./src/assets/fitness-jump.svg" alt="Desenho de uma mulher pulando corta em uma academia" />
       </aside>
     </main>
 
-    <footer>
-      <p>fale concosco no instagram <span>@treine.me</span></p>
+    <footer class="mt-[8rem]">
+      <p class="font-open_sans text-[1.4rem]/[2.8rem] font-normal">
+        fale concosco no instagram
+        <a href="#" class="font-bold hover:opacity-70 transition-all duration-[0.3s]">@treine.me</a>
+      </p>
 
-      <aside>
+      <aside class="fixed right-0 bottom-0">
         <img
           src="./src/assets/balls-decoration.svg"
           alt="Bolinhas decorativas azuis no canto inferior direito da página."
