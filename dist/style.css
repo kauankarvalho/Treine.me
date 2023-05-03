@@ -554,10 +554,6 @@ video {
   width: 100%;
 }
 
-.w-\[48\.3rem\] {
-  width: 48.3rem;
-}
-
 .w-max {
   width: -moz-max-content;
   width: max-content;
@@ -565,6 +561,10 @@ video {
 
 .max-w-\[100rem\] {
   max-width: 100rem;
+}
+
+.max-w-\[48\.3rem\] {
+  max-width: 48.3rem;
 }
 
 .flex-col {
@@ -608,14 +608,45 @@ video {
   background-color: rgb(105 185 157 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-transparent {
+  --tw-gradient-from: transparent var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-80\% {
+  --tw-gradient-from-position: 80%;
+}
+
+.to-\[\#E3FFF8\] {
+  --tw-gradient-to: #E3FFF8 var(--tw-gradient-to-position);
+}
+
+.to-100\% {
+  --tw-gradient-to-position: 100%;
+}
+
 .px-\[3\.2rem\] {
   padding-left: 3.2rem;
   padding-right: 3.2rem;
 }
 
+.px-\[4rem\] {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .py-\[1\.4rem\] {
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-dm_sans {
@@ -720,4 +751,71 @@ video {
 
 .hover\:opacity-80:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 950px) {
+  .max-\[950px\]\:order-1 {
+    order: 1;
+  }
+
+  .max-\[950px\]\:order-2 {
+    order: 2;
+  }
+
+  .max-\[950px\]\:mb-\[4rem\] {
+    margin-bottom: 4rem;
+  }
+
+  .max-\[950px\]\:mt-\[4rem\] {
+    margin-top: 4rem;
+  }
+
+  .max-\[950px\]\:w-\[20rem\] {
+    width: 20rem;
+  }
+
+  .max-\[950px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[950px\]\:items-center {
+    align-items: center;
+  }
+
+  .max-\[950px\]\:gap-\[1\.5rem\] {
+    gap: 1.5rem;
+  }
+
+  .max-\[950px\]\:gap-\[2rem\] {
+    gap: 2rem;
+  }
+
+  .max-\[950px\]\:text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .max-\[600px\]\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .max-\[520px\]\:hidden {
+    display: none;
+  }
+}
+
+@media (max-width: 495px) {
+  .max-\[495px\]\:px-\[3rem\] {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 520px) {
+  .min-\[520px\]\:hidden {
+    display: none;
+  }
 }
