@@ -19,29 +19,35 @@
   </head>
 
   <body
-    class="flex flex-col justify-center items-center h-screen bg-gradient-to-b from-transparent from-80% to-[#E3FFF8] to-100% px-[4rem] max-[495px]:px-[3rem]"
+    class="grid grid-rows-[auto_1fr_auto] h-[100%] bg-gradient-to-b from-transparent from-80% to-[#E3FFF8] to-100% px-[4rem] max-[495px]:px-[3rem]"
   >
-    <header class="mb-[5.8rem] w-[100%] max-w-[100rem] flex justify-between max-[950px]:mb-[4rem]">
-      <a href="#"><img src="./src/assets/logo.svg" alt="Logomarca da Treine.me" /></a>
+    <header class="flex justify-center mt-[6.5rem] mb-[5.8rem]">
+      <section class="w-[100%] max-w-[100rem] flex justify-between max-[950px]:mb-[4rem]">
+        <a href="#"><img src="./src/assets/logo.svg" alt="Logomarca da Treine.me" /></a>
 
-      <nav>
-        <ul class="flex gap-[4.8rem] font-mulish text-[1.8rem]/[2.2rem] text-[#1F1534] font-normal max-[520px]:hidden">
-          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
-            <a href="#">Home</a>
-          </li>
-          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
-            <a href="#">Sobre</a>
-          </li>
-          <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
-            <a href="#">Treinar</a>
-          </li>
-        </ul>
+        <nav>
+          <ul
+            class="flex gap-[4.8rem] font-mulish text-[1.8rem]/[2.2rem] text-[#1F1534] font-normal max-[520px]:hidden"
+          >
+            <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+              <a href="#">Home</a>
+            </li>
+            <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+              <a href="#">Sobre</a>
+            </li>
+            <li class="opacity-50 hover:opacity-100 hover:font-bold transition-all duration-[0.3s]">
+              <a href="#">Treinar</a>
+            </li>
+          </ul>
 
-        <img class="min-[520px]:hidden" src="./src/assets/menu.svg" alt="Ícone do menu.">
-      </nav>
+          <img class="min-[520px]:hidden" src="./src/assets/menu.svg" alt="Ícone do menu." />
+        </nav>
+      </section>
     </header>
 
-    <main class="flex gap-[10rem] max-[950px]:flex-col max-[950px]:gap-[1.5rem] max-[950px]:items-center">
+    <main
+      class="flex justify-center gap-[10rem] max-[950px]:flex-col max-[950px]:gap-[1.5rem] max-[950px]:items-center"
+    >
       <section
         class="w-[100%] max-w-[48.3rem] flex flex-col gap-[4rem] justify-center max-[950px]:order-2 max-[950px]:text-center max-[950px]:items-center max-[950px]:gap-[2rem]"
       >
@@ -70,7 +76,7 @@
       </aside>
     </main>
 
-    <footer class="mt-[8rem] max-[950px]:mt-[4rem]">
+    <footer class="mb-[3rem] mt-[8rem] max-[950px]:mt-[4rem]">
       <p class="font-open_sans text-[1.4rem]/[2.8rem] font-normal text-center">
         fale concosco no instagram
         <a href="#" class="font-bold hover:opacity-70 transition-all duration-[0.3s]">@treine.me</a>
