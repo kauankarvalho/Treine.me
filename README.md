@@ -26,7 +26,7 @@
 
 ## 🎨 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/rkDOHGPwwFtBNqEdHSuQPd/Projeto-02---Explorer?node-id=0%3A1).
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/9e8oZ7kkjIt5rkNgz9MPtk/Explorer---Projeto-02/duplicate).
 
 ## 📖 Aprendizado
 
